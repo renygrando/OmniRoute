@@ -141,7 +141,7 @@ export function resolveNextBuildBundlerFlag(baseEnv = process.env) {
   if (baseEnv.OMNIROUTE_USE_TURBOPACK === "0") {
     return "--webpack";
   }
-  return "--turbopack";
+  return "--webpack";
 }
 
 /**
